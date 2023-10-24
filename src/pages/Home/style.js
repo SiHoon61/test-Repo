@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Aside = styled.div`
+position: fixed;
   width: 300px;
   top:0;
   left:0;
@@ -12,12 +13,6 @@ export const Aside = styled.div`
   &::-webkit-scrollbar{
     display:none;
   }
-`;
-
-export const AsideContaineer = styled.div`
-  width: 300px;
-  top:0;
-  left:0;
 `;
 
 export const BottomEmptyBox = styled.div`
@@ -41,10 +36,3 @@ export const Main = styled.div`
   transition: all 350ms;
 `;
 
-export const MainContaineer = styled.div`
-  position: fixed;
-  width: 300px;
-  top:0;
-  left: 300px;
-  right: 0;
-`;
