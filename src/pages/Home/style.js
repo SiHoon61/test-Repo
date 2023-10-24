@@ -9,6 +9,10 @@ export const Aside = styled.div`
   background-color: red;
   overflow-y: scroll;
   overflow-x: hidden;
+  -ms-overflow-style:none;
+  &::-webkit-scrollbar{
+    display:none;
+  }
 `;
 
 export const Main = styled.div`
