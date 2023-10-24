@@ -2,7 +2,9 @@ import {BottomFix} from './style';
 
 const Bottom = () => {
   return (
-      <BottomFix></BottomFix>
+      <BottomFix>
+        안녕하세요
+      </BottomFix>
   );
 }
 

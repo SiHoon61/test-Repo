@@ -6,7 +6,6 @@ export const BottomFix = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
-  height: 10%;
+  height: 80px;
   background-color: green;
-  opacity: 0.5;
 `;
