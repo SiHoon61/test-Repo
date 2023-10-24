@@ -19,7 +19,7 @@ export const Main = styled.div`
   position: fixed;
   left: 300px;
   top: 0;
-  height: 90%;
+  height: 90vh;
   right: 0;
   background-color:blue;
   transition: all 350ms;

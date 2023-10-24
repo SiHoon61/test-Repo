@@ -8,4 +8,5 @@ export const BottomFix = styled.div`
   bottom: 0;
   height: 10%;
   background-color: green;
+  opacity: 0.5;
 `;
