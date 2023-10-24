@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Aside, Main } from './style';
-import Image from '../../assets/images/KakaoTalk_20231006_183905581_01.jpg';
 
 const Home = () => {
   const [isAsideVisible, setIsAsideVisible] = useState(true);
@@ -16,7 +15,6 @@ const Home = () => {
         <button onClick={()=>{
           console.log("버튼 확인");
         }}>aaassaasasa</button>
-        <img src={Image} width="300" alt="" />
       </Aside>
       <Main style={{ left: isAsideVisible ? '300px' : '0'}}>
         <div onClick={toggleAsideVisibility}>눌러</div>

@@ -1,10 +1,10 @@
-import Bottom from './components/bottom/Bottom';
-import HomePage from './pages/HomePage/HomePage';
+import Bottom from './components/Bottom';
+import Home from './pages/Home/Home';
 function App() {
 
   return (  
     <div className="App">
-      <HomePage></HomePage>
+      <Home></Home>
       <Bottom/>
     </div>
   );
