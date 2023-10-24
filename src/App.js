@@ -1,5 +1,5 @@
-import Bottom from './components/bottom/Bottom';
-import HomePage from './pages/HomePage/HomePage';
+import Bottom from './components/Bottom';
+import HomePage from './pages/Home/Home';
 function App() {
 
   return (  
